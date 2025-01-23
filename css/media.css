@@ -1,0 +1,159 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+  /* header start */
+  .custom-nav {
+    padding: 20px 0;
+  }
+
+  .logo {
+    font-size: 25px;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+  /* header start */
+  .custom-nav {
+    padding: 20px 0;
+  }
+
+  .logo {
+    font-size: 25px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+  /* header start */
+  .custom-nav {
+    padding: 25px 0;
+  }
+
+  .custom-padding {
+    padding: 0;
+  }
+
+  /* about start */
+  .about-content {
+    min-height: 300px;
+    /* Adjust for smaller screens */
+    padding: 20px;
+    /* Add padding for better spacing */
+  }
+
+  .c-head {
+    text-align: center;
+    /* Center the heading for smaller screens */
+  }
+
+  .about-btn {
+    align-self: center;
+    /* Center the button for smaller screens */
+    margin-top: 20px;
+    /* Add spacing from the content above */
+  }
+
+  .a-p {
+    font-size: 14px;
+    /* Reduce font size for readability */
+  }
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+  /* header start */
+  .custom-nav {
+    padding: 25px 0;
+  }
+
+  /* about start */
+  .about-content {
+    min-height: 400px;
+    /* Adjusted height for smaller screens */
+    padding: 30px;
+    /* Adjust padding for better spacing */
+  }
+
+  .c-head {
+    text-align: center;
+    /* Center-align heading for better aesthetics */
+  }
+
+  .about-btn {
+    align-self: center;
+    /* Center-align the button */
+    margin-top: 15px;
+    /* Add spacing above the button */
+  }
+
+  .a-p {
+    font-size: 16px;
+    /* Slightly reduce font size for better fit */
+    line-height: 1.5;
+    /* Improve readability */
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+  .a-h2 {
+    margin-bottom: 12px;
+  }
+
+  .c-p {
+    margin-bottom: 15px;
+  }
+
+  .a-p {
+    word-spacing: 0;
+  }
+
+  .about-btn {
+    margin-top: 25px;
+    width: 150px;
+    height: 45px;
+  }
+}
+
+/* Extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) and (max-width: 1440px) {
+  /* slider start */
+
+  .carousel-caption {
+    left: 16%;
+    padding-bottom: 8.75rem;
+  }
+
+  .carousel-caption h2 {
+    font-size: 52px;
+  }
+
+  .carousel-caption p {
+    padding-right: 127px;
+  }
+
+  /* welcome-start */
+  /* about start */
+  .a-h2 {
+    margin-bottom: 30px;
+  }
+
+  .a-p {
+    word-spacing: 2px;
+  }
+
+  .c-p {
+    margin-bottom: 30px;
+  }
+
+  .about-btn {
+    margin-top: 30px;
+  }
+
+}
